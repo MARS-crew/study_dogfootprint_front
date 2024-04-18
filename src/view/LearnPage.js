@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import FigmaPub from './FigmaPub';
 
 function LearnPage() {
     return (
@@ -18,6 +19,7 @@ function LearnPage() {
             <br />
             {/* 여기 사이에 컴포넌트들을 구현 ----------------------------------------------- */}
             <StyledButton>예시</StyledButton>
+            <FigmaPub />
             {/* 여기 사이에 컴포넌트들을 구현 ----------------------------------------------- */}
         </div>
     );
